@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   title: "ERUVIS",
   description: "Görüntülü Toplantı Uygulaması",
   icons: {
-    icon: "/icons/logo.svg",
+    icon: "/icons/logo.png",
   },
 };
 
@@ -27,7 +27,7 @@ export default function RootLayout({
         appearance={{
           layout: {
             socialButtonsVariant: "iconButton",
-            logoImageUrl: "/icons/eruvis-logo.svg",
+            logoImageUrl: "/icons/eruvis-logo.png",
           },
           variables: {
             colorText: "#fff",
